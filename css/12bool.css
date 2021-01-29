@@ -9,7 +9,7 @@
   margin: 0 auto;
 }
 .container::after {
-  content: "";
+  content: " ";
   clear: both;
   display: table;
 }
