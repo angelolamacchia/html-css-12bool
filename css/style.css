@@ -9,12 +9,20 @@
   height: 100%;
   line-height: 140px;
   vertical-align: middle;
+  position: relative;
 }
 
-.row5 > .col-6 {
+.row5 [class*=col-] {
   padding: 5px;
+  line-height: normal;
 }
 .col-6 [class*=col-] {
-  background-color: #d37e8d;
+  background-color: #ea7a8b;
   border: 1px solid white;
+}
+.row5 [class*=col-] .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
